@@ -1,0 +1,17 @@
+<component name="ArtifactManager">
+  <artifact name="Dex:jar">
+    <output-path>$PROJECT_DIR$/bin</output-path>
+    <root id="root">
+      <element id="archive" name="Dex.jar">
+        <element id="module-output" name="Dex" />
+        <element id="directory" name="META-INF">
+          <element id="dir-copy" path="$PROJECT_DIR$/src/main/java/META-INF" />
+        </element>
+      </element>
+      <element id="library" level="project" name="Maven: org.junit.platform:junit-platform-commons:1.1.0" />
+      <element id="library" level="project" name="Maven: org.apiguardian:apiguardian-api:1.0.0" />
+      <element id="library" level="project" name="Maven: org.opentest4j:opentest4j:1.0.0" />
+      <element id="library" level="project" name="Maven: org.junit.jupiter:junit-jupiter-api:5.1.0" />
+    </root>
+  </artifact>
+</component>
